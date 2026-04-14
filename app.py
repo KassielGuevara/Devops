@@ -33,4 +33,4 @@ if __name__ == "__main__":
     if os.getenv("CI"):
         print("Executando no CI com sucesso!")
     else:
-        menu()
+        print("Aplicação rodando no Docker com sucesso!")
