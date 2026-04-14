@@ -24,7 +24,10 @@ def menu():
                 print(h)
 
         elif opcao == "0":
+            print("Saindo...")
             break
+            
+            
 
 if __name__ == "__main__":
     if os.getenv("CI"):
